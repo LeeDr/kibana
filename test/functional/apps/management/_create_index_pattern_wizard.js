@@ -53,7 +53,7 @@ export default function ({ getService, getPageObjects }) {
 
     describe('index alias', () => {
       before(async function () {
-        await security.testUser.setRoles(['kibana_admin', 'test_alias1_reader']);
+        await security.testUser.setRoles(['kibana_admin', 'test_alias1_readerx']);
       });
       it('can be an index pattern', async () => {
         await es.transport.request({
