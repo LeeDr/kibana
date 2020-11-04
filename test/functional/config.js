@@ -295,7 +295,7 @@ export default async function ({ readConfigFile }) {
             cluster: [],
             indices: [
               {
-                names: ['alias1x'],
+                names: ['alias1'],
                 privileges: ['read', 'view_index_metadata'],
               },
             ],
